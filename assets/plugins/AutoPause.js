@@ -27,7 +27,7 @@ class AutoPause {
 	}
 
 	handlerVisibilityChange() {
-		const isVisible = document.visisbilityState === 'visible'
+		const isVisible = document.visibilityState === 'visible'
 
 		if(isVisible) {
 			this.player.play()

@@ -11,3 +11,7 @@ const player = new MediaPlayer({ el: video, plugins: [new AutoPlay(), new AutoPa
 controllBTN.onclick = () => player.playToggle()
 video.onclick = () => player.playToggle()
 muteBTN.onclick = () => player.muteToggle()
+
+if('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('/sw.js').catch(error => console.log(error.message))
+}
