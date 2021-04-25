@@ -1,7 +1,7 @@
-import MediaPlayer from './MediaPlayer';
-import AutoPlay from './plugins/AutoPlay';
-import AutoPause from './plugins/AutoPause';
-import Ads from './plugins/Ads/index';
+import MediaPlayer from '@gasparnd/mediaplayer';
+import AutoPlay from '@gasparnd/mediaplayer/lib/plugins/AutoPlay';
+import AutoPause from '@gasparnd/mediaplayer/lib/plugins/AutoPause';
+import Ads from '@gasparnd/mediaplayer/lib/plugins/Ads/index';
 
 const video = document.querySelector('video');
 const controllBTN: HTMLElement = document.querySelector('#playButton');

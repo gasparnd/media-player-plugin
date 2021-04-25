@@ -1,0 +1,15 @@
+{
+  "name": "@gasparnd/mediaplayer",
+  "version": "1.0.0",
+  "description": "An extensible media player",
+  "main": "lib/MediaPlayer.js",
+  "scripts": {
+    "build": "tsc src/**/*.ts src/plugins/*.ts src/plugins/**/*.ts --outDir lib"
+  },
+  "keywords": [],
+  "author": "Gaspar Dolcemascolo <gaspardolcemascolo@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
