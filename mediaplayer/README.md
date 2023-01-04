@@ -23,7 +23,7 @@ import MediaPlayer from '@gasparnd/mediaplayer';
 import AutoPlay from '@gasparnd/mediaplayer/lib/plugins/AutoPlay';
 import AutoPause from '@gasparnd/mediaplayer/lib/plugins/AutoPause';
 import Ads from '@gasparnd/mediaplayer/lib/plugins/Ads/index';
-});
+
 ```
 
 - Instance the Class, the video and his plugins how parrams
